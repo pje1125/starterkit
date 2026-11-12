@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+/* 새 앱마다 여기서 테마(폰트/색상)를 정의 */
+@theme {
+  --color-brand: #10b981;
+}
+
+body {
+  margin: 0;
+  /* 모바일 노치/홈바 안전 영역 */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
+}
